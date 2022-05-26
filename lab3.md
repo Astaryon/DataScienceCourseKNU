@@ -69,8 +69,9 @@ columnmean <- function(x, removeNA=TRUE)
   apply(x, 2, mean, na.rm = removeNA)
 }
 samplearray <- matrix(c(4, NA, 5, 7, 9, NA, NA, 95, 54, 33, 21, NA, 12, 22, 2, 42, 4, 0, 9, NA), nrow = 4, ncol = 5)
-columnmean(samplearray,T)
+
+columnmean(samplearray, T)
 [1]  5.333333 52.000000 36.000000 19.500000  4.333333
-columnmean(samplearray,F)
+columnmean(samplearray, F)
 [1]   NA   NA   NA 19.5   NA
 ```
