@@ -1,6 +1,7 @@
 # Лабораторна робота №1
 ## 1. Створити змінні базових (atomic) типів. Базові типи: character, numeric, integer, complex, logical.
-a <- "a"
+
+```a <- "a"
 class(a)
 [1] "character"
 
